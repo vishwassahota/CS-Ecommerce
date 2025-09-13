@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Ecomm_Project_1030/bin/Debug/net5.0
+/Ecomm_Project_1030/obj
+/Ecomm_Project_1030/Properties
+/Ecomm_Project_1030.DataAccess/bin/Debug/net5.0
+/Ecomm_Project_1030.DataAccess/obj/Debug/net5.0
+/Ecomm_Project_1030.DataAccess/obj/Release/net5.0
+/Ecomm_Project_1030.DataAccess/obj
+/Ecomm_Project_1030.Models/bin/Debug/net5.0
+/Ecomm_Project_1030.Models/obj/Debug/net5.0
+/Ecomm_Project_1030.Models/obj/Release/net5.0
+/Ecomm_Project_1030.Models/obj
+/Ecomm_Project_1030.Utility/bin/Debug/net5.0
+/Ecomm_Project_1030.Utility/obj/Debug/net5.0
+/Ecomm_Project_1030.Utility/obj/Release/net5.0
+/Ecomm_Project_1030.Utility/obj
