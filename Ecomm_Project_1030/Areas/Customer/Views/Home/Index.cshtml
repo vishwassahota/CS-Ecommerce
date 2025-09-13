@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Welcome to MovieStore";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="jumbotron text-center bg-dark text-white py-5">
+        <h1 class="display-4">Welcome to MovieStore</h1>
+        <p class="lead">Your one-stop shop for DVDs of the best Movies & TV Shows!</p>
+        <a href="/Store/Browse" class="btn btn-primary btn-lg">Browse Collection</a>
+    </div>
+
+    <!-- Featured Categories -->
+    <div class="row text-center my-5">
+        <div class="col-md-4">
+            <img src="/images/movies.jpg" alt="Movies" class="img-fluid rounded mb-3">
+            <h3>Movies</h3>
+            <p>Discover timeless classics and the latest blockbusters.</p>
+            <a href="/Store/Category/Movies" class="btn btn-outline-primary">Shop Movies</a>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/tvshows.jpg" alt="TV Shows" class="img-fluid rounded mb-3">
+            <h3>TV Shows</h3>
+            <p>All your favorite series, complete box sets and more.</p>
+            <a href="/Store/Category/TVShows" class="btn btn-outline-primary">Shop TV Shows</a>
+        </div>
+        <div class="col-md-4">
+            <img src="/images/dvds.jpg" alt="DVDs" class="img-fluid rounded mb-3">
+            <h3>DVD Deals</h3>
+            <p>Exclusive discounts on top-selling DVDs.</p>
+            <a href="/Store/Deals" class="btn btn-outline-primary">View Deals</a>
+        </div>
+    </div>
+
+    <!-- Newsletter Signup -->
+    <div class="bg-light p-5 text-center rounded">
+        <h4>Subscribe for Latest Releases & Offers</h4>
+        <form class="form-inline justify-content-center mt-3" method="post" action="/Home/Subscribe">
+            <input type="email" name="email" class="form-control mr-2" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-success">Subscribe</button>
+        </form>
+    </div>
+</div>
+
+<!-- Optional Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; @DateTime.Now.Year MovieStore. All rights reserved.</p>
+</footer>

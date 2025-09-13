@@ -1,0 +1,27 @@
+﻿<div class="row ">
+    <div class="col-9">
+        <h2 class="text-primary">Product List</h2>
+    </div>
+    <div class="col-3">
+        <a asp-area="Admin" asp-controller="Product" asp-action="Upsert" class="btn btn-primary form-control">
+            <i class="fas fa-plus"></i>&nbsp; New Product
+        </a>
+    </div>
+</div>
+<br />
+<table id="tblData" class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>ISBN</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+</table>
+@section scripts
+{
+    <script src="~/js/Product.js"></script>
+}
